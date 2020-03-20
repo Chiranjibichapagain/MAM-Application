@@ -1,0 +1,169 @@
+*{
+    margin:0em;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.interface{
+    margin-top: 0em;
+    height: 68em;
+    width: 50em;
+    border: black solid ; border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    font-family: montserrat;
+    font-weight: bolder;
+    margin: 1em 0em;
+    align-self: center;
+    font-size: 1.5em;
+}
+
+.dataDisplay{
+    min-height: 20em;
+    max-width: 50em;
+    background-color: rgba(1, 94, 1, 0.911);
+    border-bottom: white solid;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dataForm{
+    min-height: 35em;
+    max-width: 50em;
+    background-color: rgba(0, 44, 0, 0.911);
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h2{
+    font-family: montserrat;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: white;
+    margin: 0.5em 5em;
+    align-self: center;
+    
+}
+label{
+    font-family: montserrat;
+    color: white;
+    font-size: 1em;
+    margin: 0.3em 1em 0.3em 0em;
+    margin-left: 12em;
+    
+}
+
+input{
+    width: 30em;
+    height: 2em;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 2em;
+}
+
+#dataBlocks{
+    margin-bottom: 1em;
+}
+
+#addButton{
+    width: 5em;
+    height: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0.3em;
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+#displayButton{
+    width: 5em;
+    height: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0.3em;
+    align-self: center; 
+}
+
+
+.deleteButton{
+    width: 0.8em;
+    height: 1.5em;
+    color: white;
+    display: inline-block;
+    margin: 0em 1em;
+}
+
+.deleteButton:hover{
+    cursor: pointer;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+}
+
+.activityLi{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1em;
+    list-style: none;
+    
+    
+}
+.toggleButton{
+    border-radius: 0.2em;
+    font-size: .5em;
+    font-weight: bold;
+    width: 10em;
+    height: 3em;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 48em;
+    
+  }
+
+.activityLi>p{
+    margin-left:1.5em;
+}
+
+
+h3{
+    align-self: center;
+    margin-top:2em;
+    color:black;
+}
+td{
+  border: 1px solid rgba(10, 63, 28, 0);
+  overflow: hidden;
+  width: 150px;
+  padding: 2px;
+  text-align: center;
+}
+td:nth-child(1){
+    width: 130px
+}
+td:nth-child(4){
+    width: 95px
+}
+td:nth-child(5){
+    width: 50px
+}
+tr{
+    border-bottom: 1px solid rgba(0, 44, 0, 0.911);
+    padding:4px 6px 4px 0px;
+}
+/* .activityLi:nth-child(even){
+    background-color: rgba(0, 44, 0, 0.911);
+} */
